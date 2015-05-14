@@ -3,3 +3,8 @@ os: linux
 files:
   - source: scripts
     destination: /var/www/html 
+hooks:
+  BeforeInstall:
+    - location: scripts/delete.sh
+      timeout: 300
+      runas: root
