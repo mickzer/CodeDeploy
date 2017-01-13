@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: scripts
-    destination: /var/www/html 
+    destination: /home/pi/deploy 
 hooks:
   BeforeInstall:
     - location: scripts/delete.sh

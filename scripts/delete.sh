@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /var/www/html
-rm -f *
+touch /home/pi/deployed
+echo "DEPLOYING"
